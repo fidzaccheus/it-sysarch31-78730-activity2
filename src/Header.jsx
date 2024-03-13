@@ -1,8 +1,8 @@
 function Header(){
     return(
         <header className="header">
-            <h1 className="name">Vash</h1>
             <nav>
+            <h2>Marc Vash</h2>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -10,7 +10,6 @@ function Header(){
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <hr />
         </header>
     );
 }

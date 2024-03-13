@@ -1,20 +1,19 @@
-import Header from "./Header.jsx"
-import StudentCard from "./StudentCard.jsx"
-import Footer from "./Footer.jsx"
-
+import Header from "./Header.jsx";
+import Component from "./Component.jsx";
+import Footer from "./Footer.jsx";
 
 function App() {
-  return(
+  return (
     <>
-      <Header/>
-      <StudentCard/>
-      <StudentCard/>
-      <StudentCard/>
-      <StudentCard/>
-      <StudentCard/>
-      <Footer/>
+      <Header />
+      <body>
+        <div className="container">
+          <Component />
+        </div>
+        <Footer />
+      </body>
     </>
   );
 }
 
-export default App
+export default App;
